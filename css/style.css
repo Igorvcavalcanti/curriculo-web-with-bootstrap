@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Dunkin";
+  src: url("fontes/Dunkin/Dunkin.otf");
+  font-family: "Quicksand";
+  src: url("fontes/Quicksand/Quicksand-Light.ttf");
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand";
+  background: url("../img/javacode.jpg") no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  color: #3f3636;
+  font-weight: 100;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo {
+  width: 425px;
+  background-color: #eee;
+  padding: 40px 5px;
+  border-radius: 27px;
+  margin-top: 100px;
+}
+
+.foto-perfil {
+  display: block;
+  width: 40%;
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+}
+
+.descricao {
+  display: block;
+  text-align: center;
+}
+
+.bloco-redes {
+  margin-top: 10px;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+}
+
+ul img {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+}
+
+li {
+  list-style: none;
+}
+
+.portfolio {
+  max-width: 886px;
+  margin: 8rem 0;
+  background: #eee;
+  padding: 30px;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 50px;
+  text-align: center;
+  display: grid;
+  box-sizing: border-box;
+}
+
+.conteudo-experiencia {
+  display: flex;
+}
+
+.box-cards {
+  padding: 10px;
+}
+
+.card {
+  width: 180px;
+  height: 200px;
+  background: url("../img/background-card.jpg") no-repeat top center;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #555;
+}
+
+.lista-certificados {
+  display: flex;
+  padding: 10px 0;
+}
+
+.icones-certificados {
+  display: flex;
+}
+
+.img-certificados {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.img-content {
+  width: auto;
+  display: flex;
+  margin: 10px;
+}
+
+img {
+  border-radius: 15px;
+}
+
+.text-content {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
